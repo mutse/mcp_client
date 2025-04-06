@@ -1,0 +1,12 @@
+{
+    "hello_mcp": {
+        "command": "uv",
+        "args": ["--directory", "~/mcp/hello_mcp", "run", "hello_mcp.py"],
+        "transport": "stdio"
+    },
+    "gds_mcp": {
+        "command": "uv",
+        "args": ["--directory", "~/mcp/gds_mcp", "run", "gds_mcp.py"],
+        "transport": "stdio"
+    }
+}
